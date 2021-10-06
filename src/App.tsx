@@ -17,16 +17,28 @@ function App() {
             name: "Keep on Keeping on"
         }
     ]);
+    const [textValue, setTextValue] = useState("");
     const handleTaskChange = (index:number) => () => {
         console.log("changed!" + index);
         const arr = [...tasks];
         arr[index].isCompleted = !arr[index].isCompleted;
         setTasks(arr);
     };
+    const handleSubmit =(event: { preventDefault: () => void; }) => {
+        event.preventDefault();
+        console.log(textValue);
+    };
+    const handleTextChange =( event: { target: { value: any; }; }) =>{
+        const value = event.target.value;
+        setTextValue(value);
+    }
+
     return (
         <main>
-            <form>
-                <input type="text" placeholder="Task"/>
+            <form onSubmit={handleSubmit}>
+                <input value={textValue}
+                       onChange={handleTextChange}
+                       type="text" placeholder="Task"/>
                 <button>Create Task</button>
             </form>
             <ul>
