@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="126d0d64-ef80-43e7-80b0-237f7a16bf04" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/IETI-TodoList.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
     </list>
@@ -85,7 +82,7 @@
       <workItem from="1633459067090" duration="2000" />
       <workItem from="1633463443582" duration="183000" />
       <workItem from="1633464350828" duration="61000" />
-      <workItem from="1633482132654" duration="2779000" />
+      <workItem from="1633482132654" duration="5056000" />
     </task>
     <servers />
   </component>
